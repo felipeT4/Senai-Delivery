@@ -17,8 +17,12 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(
             [
+<<<<<<< HEAD
                 UsuarioSeeder::class,
                 CategoriaSeeder::class
+=======
+                UsuarioSeeder::class
+>>>>>>> refs/remotes/origin/main
             ]
             );
     }
