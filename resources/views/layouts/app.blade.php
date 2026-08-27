@@ -21,19 +21,19 @@
                     </div>
 
                     <nav class="nav nav-pills flex-column gap-2">
-                        <a href="" class="nav-link">
+                        <a href="" class="nav-link text-white">
                             <i class="bi bi-speedometer2 me-2"></i>
                             Dashboard
                         </a>
-                         <a href="" class="nav-link">
+                         <a href="" class="nav-link text-white">
                             <i class="bi bi-people me-2"></i>
                              Administradores
                         </a>
-                         <a href="" class="nav-link">
+                         <a href="" class="nav-link text-white">
                             <i class="bi bi-tags me-2"></i>
                             Categorias
                         </a>
-                        <a href="" class="nav-link">
+                        <a href="" class="nav-link text-white">
                             <i class="bi bi-basket me-2"></i>
                             Produtos
                         </a>
@@ -46,6 +46,7 @@
                     Sair</button>
                     </form>
                 </div>
+            </div>
 
                 <div class="col-12 col-md-9 col-lg-10 p-0">
                     <nav class="navbar bg-white border-bottom px-3 px-md-4">
@@ -59,7 +60,8 @@
                         </div>
                      </div>
                 </nav>
-            </div>
+            
+
                 <main class="p-3 p-md-4">
                     {{ $slot }}
                 </main>
